@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const BASE_URL = "https://jsonplaceholder.typicode.com";
-//CRUD OPERATIONS
+
 export const editUser = async (id, editData, setDetails) => {
   try {
     const response = await axios.patch(`${BASE_URL}/users/${id}`, editData, {
