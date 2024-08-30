@@ -1,9 +1,9 @@
 import * as React from "react";
+import styles from "../components/Form.module.css";
 import { useState } from "react";
 import { VStack } from "@chakra-ui/react";
 import * as Yup from "yup";
 import { editUser, createUser } from "../requests";
-import styles from "../components/Form.module.css";
 import {
   FormControl,
   FormLabel,

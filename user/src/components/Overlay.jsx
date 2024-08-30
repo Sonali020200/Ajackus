@@ -4,10 +4,11 @@ import {
   ModalOverlay,
   ModalContent,
   ModalHeader,
-  ModalBody,
   ModalCloseButton,
+  ModalBody,
 } from "@chakra-ui/react";
 import FormEdit from "./Form";
+
 const EditUser = ({
   isOpen,
   onClose,

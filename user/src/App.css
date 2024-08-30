@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+
+.heading {
+  font-size: 42px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #f35626;
+  background-image: -webkit-linear-gradient(#44079f, red, #f35626, #feab3a, #f1fe3a);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: hue 5s infinite linear;
+}
+
+
+
+@keyframes hue {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(-360deg);
+  }
+}

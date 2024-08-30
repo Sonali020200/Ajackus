@@ -10,6 +10,7 @@ import { useState } from "react";
 import DisplayUser from "./components/Display";
 import { FaPlus } from "react-icons/fa6";
 import EditUser from "./components/Overlay";
+import "./App.css";
 function App() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [details, setDetails] = useState([]);
@@ -25,11 +26,10 @@ function App() {
         p="2em 0"
       >
         <Box>
-          <Heading color="headingColorWhite">User Management</Heading>
-          
+          <Heading className="heading">User Management</Heading>
         </Box>
         <Button
-          bg="ctaPurple"
+          bg="#4358f6"
           onClick={() => {
             onOpen();
           }}

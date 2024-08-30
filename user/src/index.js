@@ -6,10 +6,10 @@ import reportWebVitals from "./reportWebVitals";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const colors = {
-  backColor: "#1d1a24",
-  tableColor: "#121212",
+  backColor: "#d1d5db",
+  tableColor: "#455a64",
   ctaPurple: "#c4a5fe",
-  fontColorGrey: "#8b8a8e",
+  fontColorGrey: "#fafafa",
   headingColorWhite: "#fafafa",
 };
 const theme = extendTheme({ colors });

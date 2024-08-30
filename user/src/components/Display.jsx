@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 
+
 import {
   Table,
   Flex,
@@ -72,7 +73,7 @@ const DisplayUser = ({ setDetails, details, totalCount, setTotalCount }) => {
               <Th color={"headingColorWhite"}>User</Th>
               <Th color={"headingColorWhite"}>Email</Th>
               <Th color={"headingColorWhite"}>Department</Th>
-              <Th></Th>
+              <Th color={"headingColorWhite"}>Actions</Th>
             </Tr>
           </Thead>
 

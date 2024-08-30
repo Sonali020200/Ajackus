@@ -9,6 +9,7 @@ import {
   NumberIncrementStepper,
   NumberDecrementStepper,
 } from "@chakra-ui/react";
+
 const Pagination = ({
   page,
   limit,
